@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* .contain {
+    background-color: white;
+    min-height: 200px;
+    width: 500px;
+    padding: 30px;
+}
+
+.todo-form {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    background-color: aqua;
+    justify-content: stretch;
+}
+
+input {
+    width: 100%;
+}
+
+.input-item {
+    width: 300px;
+} */
